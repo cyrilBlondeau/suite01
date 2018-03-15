@@ -6,6 +6,13 @@
 */
 
 //  écrire votre code sous ce commentaire
+const boostedAddition = array => {
+	let total = 0
+	for (let i of array) {
+		total = total + i
+	}
+	console.log(total)
+}
 
 /*
   Test 1
