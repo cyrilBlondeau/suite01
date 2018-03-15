@@ -12,6 +12,9 @@
 */
 
 //  écrire votre code sous ce commentaire
+const addition = (nb1, nb2) => {
+  console.log(nb1 + nb2)
+}
 
 /*
   Test 1
