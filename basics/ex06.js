@@ -11,6 +11,21 @@
 */
 
 //  écrire votre code sous ce commentaire
+const getHumanTypeByAge = nb => {
+  switch (true) {
+    case nb >= 0 && nb < 12:
+      console.log(`enfant`)
+      break
+    case nb >= 12 && nb < 18:
+      console.log(`ado`)
+      break
+    case nb >= 18 && nb < 124:
+      console.log(`adulte`)
+      break
+    default:
+      console.log(`impossible... ou encore jamais vu`)
+  }
+}
 
 /*
   Test 1
