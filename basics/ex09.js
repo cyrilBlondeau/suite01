@@ -6,6 +6,15 @@
 */
 
 //  écrire votre code sous ce commentaire
+const boostedEvenAddition = array => {
+	let nb = 0
+	for (let i of array) {
+		if (i % 2 === 0) {
+			nb = nb + i
+		}
+	}
+	console.log(nb)
+} 
 
 /*
   Test 1

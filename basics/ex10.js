@@ -12,6 +12,42 @@
 */
 
 //  écrire votre code sous ce commentaire
+const fruits = {
+    orange: 0,
+    kiwi: 0,
+    ananas: 0,
+    prune: 0,
+    banane: 0,
+    pamplemousse: 0
+}
+
+const shoppingList = array => {
+    for (let i of array) {
+        for (let j of i) {
+            switch (j) {
+                case "orange":
+                    fruits.orange++;
+                break;
+                case "kiwi":
+                    fruits.kiwi++;
+                break;
+                case "ananas":
+                    fruits.ananas++;
+                break;
+                case "prune":
+                    fruits.prune++;
+                break;
+                case "banane":
+                    fruits.banane++;
+                break;
+                case "pamplemousse":
+                    fruits.pamplemousse++;
+                break;
+            }  // fermeture switch
+        } // fermeture j of i
+    } // fermeture i of array
+    console.log(fruits)
+} // fermeture fonction
 
 /*
   Test 1
