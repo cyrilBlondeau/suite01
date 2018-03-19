@@ -10,6 +10,9 @@
 */
 
 //  écrire votre code sous ce commentaire
+const searchOcc = (array, occ) => {
+  
+}
 
 /*
   Test 1

@@ -7,6 +7,12 @@
 */
 
 //  écrire votre code sous ce commentaire
+const editStringAt = (str, pos, char) => {
+  let array = str.split('')
+  array[pos] = char
+  let string = array.join('')
+  console.log(string)
+}
 
 /*
   Test 1

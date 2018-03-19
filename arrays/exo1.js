@@ -11,6 +11,14 @@
 */
 
 //  écrire votre code sous ce commentaire
+const getCharAt = (mot, nb) => {
+  let toto = mot.split('')
+  if (nb > mot.length) {
+    console.log('')
+  } else {
+    console.log(toto[nb])
+  }
+}
 
 /*
   Test 1
@@ -25,6 +33,7 @@ getCharAt("bonjour", 3);
 */
 
 getCharAt("comment ça va?", 11);
+getCharAt("kiki", 11);
 
 /* DO NOT TOUCH */
 module.exports = {
