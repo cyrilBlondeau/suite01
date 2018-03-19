@@ -10,7 +10,16 @@
 */
 
 //  écrire votre code sous ce commentaire
-
+const getAllLastnames = array => {
+  let result = array.map(i => {
+    if (i.name) {
+      return i.name
+    } else {
+      return ''
+    }
+  })
+  console.log(result)
+}
 /*
   Test 1
   Résultat attendu : ["John", "Judith", "Julia"]
@@ -24,6 +33,8 @@ getAllLastnames([{name: 'John'}, {name: 'Judith'}, {name: 'Julia'}]);
 */
 
 getAllLastnames([{name: 'Marc'}, {age: 18}, {name: 'Robert'}]);
+
+
 
 /* DO NOT TOUCH */
 module.exports = {

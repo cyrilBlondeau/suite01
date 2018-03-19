@@ -10,6 +10,10 @@
 */
 
 //  écrire votre code sous ce commentaire
+const countTotalTimeSpent = array => {
+	let total = array.reduce((a, b) => a + b.time, 0)
+	console.log(total)
+}
 
 /*
   Test 1

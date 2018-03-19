@@ -10,6 +10,14 @@
 */
 
 //  écrire votre code sous ce commentaire
+const filterEvenNumbers = array => {
+  let result = array.filter(i => i % 2 === 0)
+  console.log(result)
+}
+
+/*var words = ['spray', 'limit', 'elite', 'exuberant', 'destruction', 'present'];
+const result = words.filter(word => word.length > 6);
+console.log(result);*/
 
 /*
   Test 1

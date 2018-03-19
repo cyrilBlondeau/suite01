@@ -11,6 +11,10 @@
 */
 
 //  écrire votre code sous ce commentaire
+const checkVehicles = array => {
+  let result = array.includes("mercedes")
+  console.log(result)
+}
 
 /*
   Test 1
