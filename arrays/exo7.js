@@ -13,6 +13,7 @@
 const splitStr = (str, occ) => {
 	let word = ''
 	let array = []
+
 	for (let i = 0; i < str.length; i++) {
 		word = word + str[i]
 		if (str[i] === occ) {
@@ -20,6 +21,7 @@ const splitStr = (str, occ) => {
 			word = ''
 		}
 	}
+
 	array.push(word)
 	console.log(array)
 }

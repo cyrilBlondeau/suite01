@@ -24,21 +24,21 @@ console.log(result);*/
   Résultat attendu : [2, 6, 8]
 */
 
-console.log(filterEvenNumbers([2, 5, 6, 8]))
+filterEvenNumbers([2, 5, 6, 8])
 
 /*
   Test 2
   Résultat attendu : []
 */
 
-console.log(filterEvenNumbers([1, 3, 5, 7]))
+filterEvenNumbers([1, 3, 5, 7])
 
 /*
   Test 3
   Résultat attendu : [0, 8]
 */
 
-console.log(filterEvenNumbers([0, 3, 8, 11]))
+filterEvenNumbers([0, 3, 8, 11])
 
 /* DO NOT TOUCH */
 module.exports = {

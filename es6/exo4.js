@@ -21,14 +21,14 @@ const checkVehicles = array => {
   Résultat attendu : true
 */
 
-console.log(checkVehicles(["subaru", "volkswagen", "mercedes", "peugeot"], "mercedes"))
+checkVehicles(["subaru", "volkswagen", "mercedes", "peugeot"], "mercedes")
 
 /*
   Test 2
   Résultat attendu : false
 */
 
-console.log(checkVehicles(["suzuki", "honda", "ducati"], "bmw"))
+checkVehicles(["suzuki", "honda", "ducati"], "bmw")
 
 /* DO NOT TOUCH */
 module.exports = {

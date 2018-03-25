@@ -20,7 +20,7 @@ const countTotalTimeSpent = array => {
   Résultat attendu : 65
 */
 
-console.log(countTotalTimeSpent([{name: 'Homer', time: 15}, {name: 'Bart', time: 28}, {name: 'Lisa', time: 22}]))
+countTotalTimeSpent([{name: 'Homer', time: 15}, {name: 'Bart', time: 28}, {name: 'Lisa', time: 22}])
 
 /* DO NOT TOUCH */
 module.exports = {

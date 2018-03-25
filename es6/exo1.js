@@ -25,14 +25,14 @@ const getAllLastnames = array => {
   Résultat attendu : ["John", "Judith", "Julia"]
 */
 
-console.log(getAllLastnames([{name: 'John'}, {name: 'Judith'}, {name: 'Julia'}]))
+getAllLastnames([{name: 'John'}, {name: 'Judith'}, {name: 'Julia'}])
 
 /*
   Test 2
   Résultat attendu : ["Marc", "", "Robert"]
 */
 
-console.log(getAllLastnames([{name: 'Marc'}, {age: 18}, {name: 'Robert'}]))
+getAllLastnames([{name: 'Marc'}, {age: 18}, {name: 'Robert'}])
 
 
 
