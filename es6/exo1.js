@@ -18,21 +18,21 @@ const getAllLastnames = array => {
       return ''
     }
   })
-  console.log(result)
+  return result
 }
 /*
   Test 1
   Résultat attendu : ["John", "Judith", "Julia"]
 */
 
-getAllLastnames([{name: 'John'}, {name: 'Judith'}, {name: 'Julia'}]);
+console.log(getAllLastnames([{name: 'John'}, {name: 'Judith'}, {name: 'Julia'}]))
 
 /*
   Test 2
   Résultat attendu : ["Marc", "", "Robert"]
 */
 
-getAllLastnames([{name: 'Marc'}, {age: 18}, {name: 'Robert'}]);
+console.log(getAllLastnames([{name: 'Marc'}, {age: 18}, {name: 'Robert'}]))
 
 
 

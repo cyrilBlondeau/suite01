@@ -11,20 +11,20 @@ const editStringAt = (str, pos, char) => {
   let array = str.split('')
   array[pos] = char
   let string = array.join('')
-  console.log(string)
+  return string
 }
 
 /*
   Test 1
   Résultat attendu : "Bondour"
 */
-editStringAt("Bonjour", 3, "d");
+editStringAt("Bonjour", 3, "d")
 
 /*
   Test 2
   Résultat attendu : "Hello World"
 */
-editStringAt("Hello world", 6, "W");
+editStringAt("Hello world", 6, "W")
 
 /* DO NOT TOUCH */
 module.exports = {

@@ -13,7 +13,7 @@
 //  écrire votre code sous ce commentaire
 const checkVehicles = array => {
   let result = array.includes("mercedes")
-  console.log(result)
+  return result
 }
 
 /*
@@ -21,14 +21,14 @@ const checkVehicles = array => {
   Résultat attendu : true
 */
 
-checkVehicles(["subaru", "volkswagen", "mercedes", "peugeot"], "mercedes");
+console.log(checkVehicles(["subaru", "volkswagen", "mercedes", "peugeot"], "mercedes"))
 
 /*
   Test 2
   Résultat attendu : false
 */
 
-checkVehicles(["suzuki", "honda", "ducati"], "bmw");
+console.log(checkVehicles(["suzuki", "honda", "ducati"], "bmw"))
 
 /* DO NOT TOUCH */
 module.exports = {

@@ -10,6 +10,19 @@
 */
 
 //  écrire votre code sous ce commentaire
+const splitStr = (str, occ) => {
+	let word = ''
+	let array = []
+	for (let i = 0; i < str.length; i++) {
+		word = word + str[i]
+		if (str[i] === occ) {
+			array.push(word)
+			word = ''
+		}
+	}
+	array.push(word)
+	console.log(array)
+}
 
 /*
   Test 1

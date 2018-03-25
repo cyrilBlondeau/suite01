@@ -8,18 +8,28 @@
 */
 
 //  écrire votre code sous ce commentaire
+const sortNumbers = array => {
+	for (let i = 0; i < array.length; i++) {
+		if (array[i] < array[0]) {
+			let temp = array[i]
+			array.splice(i, 1)
+			array.splice(0, 0, temp)
+		}
+	}
+	return array
+}
 
 /*
   Test 1
   Résultat attendu : [2, 3, 4, 5]
 */
-sortNumbers([4, 3, 5, 2]);
+sortNumbers([4, 3, 5, 2])
 
 /*
   Test 2
   Résultat attendu : [-10, 2, 10, 28]
 */
-sortNumbers([10, 2, 28, -10]);
+sortNumbers([10, 2, 28, -10])
 
 /* DO NOT TOUCH */
 module.exports = {

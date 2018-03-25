@@ -10,9 +10,9 @@
 //  écrire votre code sous ce commentaire
 const isEven = nb => {
   if (nb % 2 === 0) {
-    console.log(1)
+    return 1
   } else {
-    console.log(0)
+    return 0
   }
 }
 

@@ -11,34 +11,30 @@
 
 //  écrire votre code sous ce commentaire
 const findYellowFruit = array => {
-  let result = array.find(i => {
-    if (i.color === 'jaune') {
-      return i.name
-    } else {
-      return ''
-    }
-  })
-  console.log(result)
+  //let result = array.find(i => i.color === 'jaune')
+  let result = ''
+  if (array.find(i => i.color === 'jaune')) {
+    result = i.name
+    return
+  } else {
+    result = ''
+  }
+  return result
 }
-/*
-const findYellowFruit = array => {
-  let result = array.find(i => i.color === 'jaune') 
-  console.log(result)
-}*/
 
 /*
   Test 1
   Résultat attendu : "banane"
 */
 
-findYellowFruit([{name: 'orange', color: 'orange'}, {name: 'banane', color: 'jaune'}, {name: 'pomme', color: 'rouge'}]);
+console.log(findYellowFruit([{name: 'orange', color: 'orange'}, {name: 'banane', color: 'jaune'}, {name: 'pomme', color: 'rouge'}]))
 
 /*
   Test 2
   Résultat attendu : ""
 */
 
-findYellowFruit([{name: 'orange', color: 'orange'}, {name: 'pomme', color: 'vert'}]);
+console.log(findYellowFruit([{name: 'orange', color: 'orange'}, {name: 'pomme', color: 'vert'}]))
 
 /* DO NOT TOUCH */
 module.exports = {

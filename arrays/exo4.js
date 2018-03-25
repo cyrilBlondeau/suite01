@@ -11,20 +11,26 @@
 
 //  écrire votre code sous ce commentaire
 const searchOcc = (array, occ) => {
-  
+  for (let i = 0; i <= array.length; i++) {
+    if (array[i] === occ) {
+      return i;
+    } else if (i >= array.length) {
+      return -1;
+    }
+  }
 }
 
 /*
   Test 1
   Résultat attendu : 2
 */
-searchOcc(["Salut", "ça", "va", "?"], "va");
+searchOcc(["Salut", "ça", "va", "?"], "va")
 
 /*
   Test 2
   Résultat attendu : -1
 */
-searchOcc(["Salut", "ça", "va", "?"], "Ahahahah");
+searchOcc(["Salut", "ça", "va", "?"], "Ahahahah")
 
 /* DO NOT TOUCH */
 module.exports = {

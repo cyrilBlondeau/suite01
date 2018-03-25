@@ -13,7 +13,7 @@ const boostedEvenAddition = array => {
 			nb = nb + i
 		}
 	}
-	console.log(nb)
+	return nb
 } 
 
 /*

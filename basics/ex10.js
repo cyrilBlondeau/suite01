@@ -12,16 +12,17 @@
 */
 
 //  écrire votre code sous ce commentaire
-const fruits = {
-    orange: 0,
-    kiwi: 0,
-    ananas: 0,
-    prune: 0,
-    banane: 0,
-    pamplemousse: 0
-}
 
 const shoppingList = array => {
+    const fruits = {
+        orange: 0,
+        kiwi: 0,
+        ananas: 0,
+        prune: 0,
+        banane: 0,
+        pamplemousse: 0
+    }
+
     for (let i of array) {
         for (let j of i) {
             switch (j) {
@@ -46,8 +47,8 @@ const shoppingList = array => {
             }  // fermeture switch
         } // fermeture j of i
     } // fermeture i of array
-    console.log(fruits)
-} // fermeture fonction
+    return fruits
+}
 
 /*
   Test 1

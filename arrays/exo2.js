@@ -10,7 +10,7 @@
 //  écrire votre code sous ce commentaire
 const editArrayAt = (array, pos, value) => {
   array[pos] = value
-  console.log(arr1)
+  return arr1
 }
 
 /*

@@ -11,12 +11,12 @@
 */
 
 //  écrire votre code sous ce commentaire
-const getCharAt = (mot, nb) => {
-  let toto = mot.split('')
-  if (nb > mot.length) {
-    console.log('')
+const getCharAt = (entry, nb) => {
+  let toto = entry.split('') // sépare la chaine dans un tableau
+  if (nb > entry.length) {
+    return ''
   } else {
-    console.log(toto[nb])
+    return toto[nb]
   }
 }
 
@@ -24,16 +24,13 @@ const getCharAt = (mot, nb) => {
   Test 1
   Résultat attendu : "j"
 */
-
-getCharAt("bonjour", 3);
+getCharAt("bonjour", 3)
 
 /*
   Test 2
   Résultat attendu : "v"
 */
-
-getCharAt("comment ça va?", 11);
-getCharAt("kiki", 11);
+getCharAt("comment ça va?", 11)
 
 /* DO NOT TOUCH */
 module.exports = {

@@ -8,7 +8,7 @@
 //  écrire votre code sous ce commentaire
 const boostedAddition = array => {
 	let total = array.reduce((a, b) => a + b, 0)
-	console.log(total)
+	return total
 }
 
 /*

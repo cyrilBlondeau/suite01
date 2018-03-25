@@ -12,7 +12,7 @@
 //  écrire votre code sous ce commentaire
 const countTotalTimeSpent = array => {
 	let total = array.reduce((a, b) => a + b.time, 0)
-	console.log(total)
+	return total
 }
 
 /*
@@ -20,7 +20,7 @@ const countTotalTimeSpent = array => {
   Résultat attendu : 65
 */
 
-countTotalTimeSpent([{name: 'Homer', time: 15}, {name: 'Bart', time: 28}, {name: 'Lisa', time: 22}]);
+console.log(countTotalTimeSpent([{name: 'Homer', time: 15}, {name: 'Bart', time: 28}, {name: 'Lisa', time: 22}]))
 
 /* DO NOT TOUCH */
 module.exports = {

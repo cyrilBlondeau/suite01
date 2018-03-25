@@ -14,7 +14,7 @@
 
 //  écrire votre code sous ce commentaire
 const retParam = nb => {
-  console.log(nb)
+  return nb
 }
 
 /*

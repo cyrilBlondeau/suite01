@@ -10,9 +10,9 @@
 //  écrire votre code sous ce commentaire
 const isEvenConcat = nb => {
   if (nb % 2 === 0) {
-    console.log(`${nb} est pair`)
+    return `${nb} est pair`
   } else {
-    console.log(`${nb} est impair`)
+    return `${nb} est impair`
   }
 }
 

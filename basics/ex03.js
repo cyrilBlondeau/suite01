@@ -13,7 +13,7 @@
 
 //  écrire votre code sous ce commentaire
 const addition = (nb1, nb2) => {
-  console.log(nb1 + nb2)
+  return nb1 + nb2
 }
 
 /*
